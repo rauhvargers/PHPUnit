@@ -1,12 +1,4 @@
 <?php
-assert_options(ASSERT_ACTIVE,1);
-
-
-/*function __autoload($className){
-	require("./classes/".strtolower($className).".class.php");
-}*/
-
-
 require_once("./classes/gradefile.class.php");
 require_once("./classes/pdfgradefile.class.php"); 
 require_once("./classes/rtfgradefile.class.php");
